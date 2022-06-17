@@ -57,10 +57,6 @@ PARTIE HEADER
   flex-shrink: 1;
 }
 
-.logoLoupe{
-  width: 20px;
-}
-
 .inputRecherche {
   width: 50%;
   background-color: #fff;
@@ -69,6 +65,54 @@ PARTIE HEADER
   border-bottom-left-radius: 5px;
 }
 
-.lienNav button {
-  border
+.liensNav button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 4px 20px;
+  border: none;
+}
+
+.logoLoupe{
+  width: 20px;
+}
+
+.menuResBtn {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.menuIco{
+  width: 25px;
+}
+
+/*
+////////////////////////////////////
+PARTIE SIDEBAR
+////////////////////////////////////
+*/
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  width: 239px;
+  background: #19171c;
+  height: 100vh;
+}
+
+.titreSidebar{
+  padding: 30px 0 20px 0;
+  color: #efebf5;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.listeStream{
+  padding: 0 0 0 10px;
+  color: #efebf5;
 }
